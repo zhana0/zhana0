@@ -1,0 +1,22 @@
+{
+    "name": "zhana0/zhana0",
+    "description": "MVC formwork",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "git",
+            "email": "368006788@qq.com"
+        }
+    ],
+    "require": {
+        "psr/http-message": "^1.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "core\\":"core/",
+            "core\\http\\":"core/http/",
+            "core\\mysql\\":"core/mysql/"
+        }
+    }
+}
