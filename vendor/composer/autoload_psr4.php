@@ -9,5 +9,7 @@ return array(
     'core\\mysql\\' => array($baseDir . '/core/mysql'),
     'core\\http\\' => array($baseDir . '/core/http'),
     'core\\' => array($baseDir . '/core'),
-    'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
+    'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
+    'Symfony\\Component\\Routing\\' => array($vendorDir . '/symfony/routing'),
+    'Symfony\\Component\\HttpFoundation\\' => array($vendorDir . '/symfony/http-foundation'),
 );

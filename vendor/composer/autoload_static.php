@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitb2c4243e257a81973a76d271e8b68874
 {
+    public static $files = array (
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'c' => 
         array (
@@ -13,9 +17,11 @@ class ComposerStaticInitb2c4243e257a81973a76d271e8b68874
             'core\\http\\' => 10,
             'core\\' => 5,
         ),
-        'P' => 
+        'S' => 
         array (
-            'Psr\\Http\\Message\\' => 17,
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Symfony\\Component\\Routing\\' => 26,
+            'Symfony\\Component\\HttpFoundation\\' => 33,
         ),
     );
 
@@ -32,9 +38,17 @@ class ComposerStaticInitb2c4243e257a81973a76d271e8b68874
         array (
             0 => __DIR__ . '/../..' . '/core',
         ),
-        'Psr\\Http\\Message\\' => 
+        'Symfony\\Polyfill\\Mbstring\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
+        'Symfony\\Component\\Routing\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/routing',
+        ),
+        'Symfony\\Component\\HttpFoundation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/http-foundation',
         ),
     );
 
