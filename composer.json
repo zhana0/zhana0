@@ -16,8 +16,9 @@
     "autoload":{
         "psr-4":{
             "core\\":"core/",
-            "core\\http\\":"core/http/",
-            "core\\mysql\\":"core/mysql/"
+            "App\\":"app/",
+            "App\\Controller\\":"app/controller",
+            "App\\Model\\":"app/model"
         }
     }
 }

@@ -13,8 +13,6 @@ class ComposerStaticInitb2c4243e257a81973a76d271e8b68874
     public static $prefixLengthsPsr4 = array (
         'c' => 
         array (
-            'core\\mysql\\' => 11,
-            'core\\http\\' => 10,
             'core\\' => 5,
         ),
         'S' => 
@@ -23,17 +21,15 @@ class ComposerStaticInitb2c4243e257a81973a76d271e8b68874
             'Symfony\\Component\\Routing\\' => 26,
             'Symfony\\Component\\HttpFoundation\\' => 33,
         ),
+        'A' => 
+        array (
+            'App\\Model\\' => 10,
+            'App\\Controller\\' => 15,
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'core\\mysql\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/mysql',
-        ),
-        'core\\http\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/http',
-        ),
         'core\\' => 
         array (
             0 => __DIR__ . '/../..' . '/core',
@@ -49,6 +45,18 @@ class ComposerStaticInitb2c4243e257a81973a76d271e8b68874
         'Symfony\\Component\\HttpFoundation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/http-foundation',
+        ),
+        'App\\Model\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/model',
+        ),
+        'App\\Controller\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/controller',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 

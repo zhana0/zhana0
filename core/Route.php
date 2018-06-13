@@ -33,6 +33,13 @@ class Route
         self::$routes->add($path, $route);
     }
 
+    public static function post($path = '',$controller = [])
+    {
+        $route = new BaseRoute($path, $controller);
+        $route->setMethods('POST');
+        self::$routes->add($path, $route);
+    }
+
     public static function match()
     {
         $matcher = new UrlMatcher(self::$routes, self::$context);

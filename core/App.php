@@ -12,5 +12,10 @@ class App
     public function run()
     {
         $ret = Route::match();
+        $controller = array_keys($ret)[0];
+        $action = $ret[$controller];
+        $class = "App\\Controller\\" . ucfirst($controller);
+        $instan = new $class();
+        return $instan->$action();
     }
 }
