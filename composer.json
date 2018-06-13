@@ -11,7 +11,8 @@
     ],
     "require": {
         "symfony/http-foundation": "^4.1",
-        "symfony/routing": "^4.1"
+        "symfony/routing": "^4.1",
+        "doctrine/orm": "^2.6"
     },
     "autoload":{
         "psr-4":{

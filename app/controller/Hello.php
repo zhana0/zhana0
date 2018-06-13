@@ -8,11 +8,10 @@
 
 namespace App\Controller;
 
-
-class Hello
+class Hello extends Controller
 {
     public function index()
     {
-        echo 'hello/index';
+
     }
 }

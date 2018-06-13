@@ -5,14 +5,15 @@
  * Date: 18-6-12
  * Time: 下午8:46
  */
-namespace zhana0\Controller;
+namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 
 class Controller
 {
-    public function index(Request $request)
+    public $request;
+    public function __construct(Request $request)
     {
-        var_dump($request);
+        $this->request = $request;
     }
 }
